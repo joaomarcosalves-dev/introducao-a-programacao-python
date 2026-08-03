@@ -1,3 +1,4 @@
-salario = 1500 
-aumento = 5 
-print(salario + (salario * aumento / 100))
+#calcule um aumento de 15% para um salário de R$ 750
+salario = 750
+aumento = 0.15 
+print(salario + (salario * aumento))
