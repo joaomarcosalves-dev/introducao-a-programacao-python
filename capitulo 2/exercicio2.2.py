@@ -1,2 +1,3 @@
-expressao = 10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2
-print(expressao)
+salario = 1500 
+aumento = 5 
+print(salario + (salario * aumento / 100))
