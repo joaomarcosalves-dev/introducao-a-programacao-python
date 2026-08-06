@@ -2,16 +2,16 @@
 
 a,b,c = True,False,True
 
-a and a   #True    
-a or c    #True
-b and b   #False    
-b or c    #True
-not c     #False    
-c or a    #True
-not b     #True    
-c or b    #True
-not a     #False    
-c or c    #True
-a and b   #False    
-b or b    #False
-b and c   #False
+a and a   #True and True = True    
+a or c    #True or True = True
+b and b   #False and False = False    
+b or c    #False or True = True
+not c     #False. c = True,not c = False    
+c or a    #True or True = True
+not b     #True. b = False, not b = True    
+c or b    #True or False = True
+not a     #False. a = True, not a = False    
+c or c    #True or True = True
+a and b   #True and False = False    
+b or b    #False or False = False
+b and c   #False and True = False
